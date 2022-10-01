@@ -1,0 +1,147 @@
+/* p {
+    border: 1px solid red;
+} */
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #B6C8A9;
+}
+
+body {
+    padding: 50px 150px;
+    /* border: 1px solid red; */
+    color: #474747;
+}
+
+span {
+    color: #474747
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+main {
+    margin-top: 50px;
+    /* padding: 40px; */
+}
+
+#logo>p {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #B2FFA9;
+    /* border: 1px solid red; */
+}
+
+nav>ul {
+    display: flex;
+    /* border: 1px solid red; */
+
+}
+
+li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.text {
+    /* border: 1px solid red; */
+    /* padding: 40px; */
+}
+
+.image {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: end;
+}
+
+.pic-of-me {
+    /* border: 1px solid red; */
+    max-width: 80%;
+    height: auto;
+    border-radius: 16px;
+}
+
+#intro {
+    font-size: 3rem;
+    line-height: 0;
+}
+
+#bio {
+    /* width: 400px; */
+    /* width: 70%; */
+    font-size: 1.25rem;
+}
+
+.hero {
+    display: flex;
+    /* border: 1px solid red; */
+    /* flex: 1 */
+    /* justify-content: space-between; */
+    /* gap: 200px; */
+}
+
+button {
+    background-color: #B2FFA9;
+    border: none;
+    padding: .5rem;
+    border-radius: .25rem;
+}
+
+.socials {
+    display: flex;
+    gap: 16px
+}
+
+.icons {
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons>* {
+    /* text-decoration: none; */
+}
+
+.facebook {
+    color: #385898;
+}
+
+.linkedin {
+    color: #0a66c2;
+}
+
+.github {
+    color: #2da44e
+}
+
+#proj-head {
+    font-size: 1.75rem;
+}
+
+.projects {
+    /* border: 1px solid red; */
+    margin-top: 8rem;
+}
+
+.project-items {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    padding: 1.25rem;
+}
+
+.project-items>* {
+    /* border: 1px solid red; */
+    width: 350px;
+    height: 250px;
+    background-color: grey;
+}
